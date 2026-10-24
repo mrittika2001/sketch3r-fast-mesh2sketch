@@ -112,6 +112,8 @@ python visualize_h5.py outputs/assets/painted_wooden_table_all_output.h5 --mesh 
 
 ### Output format
 
+This repo's data format is inspired by *Towards 3D VR-Sketch to 3D Shape Retrieval* (Luo et al., International Conference on 3D Vision (3DV), 2020).
+
 Each `.h5` file contains three groups — `curve_network` (machine sketch), `sparse_network` (sparsified sketch) and `human_network` (human-like sketch) — each with:
 
 | Dataset | Shape | Content |
@@ -182,5 +184,18 @@ If you use this code, please cite the original paper:
     month     = {March},
     year      = {2026},
     pages     = {8680-8689}
+}
+```
+
+The data format is inspired by:
+
+```bibtex
+@InProceedings{Luo_2020_3DV,
+    author    = {Luo, Ling and Gryaditskaya, Yulia and Yang, Yongxin and Xiang, Tao and Song, Yi-Zhe},
+    title     = {Towards 3D VR-Sketch to 3D Shape Retrieval},
+    booktitle = {2020 International Conference on 3D Vision (3DV)},
+    year      = {2020},
+    pages     = {81-90},
+    publisher = {IEEE}
 }
 ```
