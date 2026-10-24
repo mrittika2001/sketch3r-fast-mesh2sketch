@@ -1,0 +1,17 @@
+# Python 3.10, Linux x86_64, NVIDIA GPU with CUDA 12.x driver.
+# For CUDA 11.x: use cupy-cuda11x and install torch from https://download.pytorch.org/whl/cu118
+numpy==2.2.6
+scipy==1.15.3
+scikit-learn==1.7.2
+scikit-image==0.25.2
+trimesh==5.2.0
+open3d==0.20.0
+meshlib==3.1.4.297
+h5py==3.16.0
+pyvista==0.49.1
+similaritymeasures==1.5.0
+joblib==1.6.0
+tqdm==4.70.1
+shutup==0.3.0
+torch==2.10.0
+cupy-cuda12x>=13.0
